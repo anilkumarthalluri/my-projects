@@ -1,0 +1,254 @@
+body{
+    color:#fff;
+    background: #000;
+}
+.header{
+  height:100vh;
+  width:100%;
+ background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/7fb62e44-31fd-4e1f-b6ad-0b5c8c2a20ef/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+ background-size:cover;
+ background-position:center;
+}
+img{
+  height:164px;
+  margin-left:138px;
+}
+nav{
+  display:flex;
+  align-items:center;
+  padding:10px 0px;
+  justify-content:space-between;
+  margin-top: -34px;
+}
+.logo{
+  width:220px;
+  cursor:pointer;
+}
+nav button{
+  border:0;
+  outline:0;
+  cursor:pointer;
+  margin-right:10px;
+  border-radius:4px;
+  font-size:12px;
+  background:#db0001;
+  padding:7px 20px;
+  color:#fff;
+}
+div{
+  margin-right:171px;
+}
+.lang-btn{
+    background: transparent;
+    border:1px solid #fff;
+    color:white;
+}
+.lang-btn img{
+  height:10px;
+  width:10px;
+  margin-left:10px;
+}
+.header-content{
+  text-align:center;
+  margin-top:114px;
+  margin-left:93px;
+}
+.header-content h1{
+  font-size:60px;
+  font-weight: 600;
+}
+.header-content h3{
+  font-weight:400;
+  font-size:25px;
+  margin-bottom: 20px;
+}
+.header-content p{
+  margin-bottom:20px;
+  font-size:20px;
+}
+.Email-signup input{
+  height:23px;
+  width:340px;
+  padding:24px 16px 8px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  margin-left: 2px;
+  border:2px solid white;
+  border-radius: 4px;
+  text-align:left;
+  top:50%;
+  font-size:21px;
+}
+.Email-signup button{
+   background-color: red;
+   color:white;
+   height:61px;
+   width:203px;
+   cursor: pointer;
+   font-family:bold;
+   font-size:25px;
+   border-radius: 6px;
+   padding: 20px;
+   text-align:center;
+}
+.features{
+  padding:50px 12%;
+  font-size:22px;
+}
+.row{
+  display:flex;
+  width:100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:50px 0%;
+
+}
+.text-col{
+  flex-basis:50%;
+  margin-bottom: 20px;
+}
+.img-col{
+  flex-basis:50%;
+  margin-bottom: 20px;
+
+}
+.img-col img{
+  display:block;
+  width:368px;
+  height:222px;
+  margin-left: 716px;
+  margin-top:-173px;
+}
+.text-col h2{
+  font-size:54px;
+}
+#line1{
+  width:100%;
+  height:9px;
+  background-color: rgb(59, 54, 48);
+  margin-left:0px;
+  position: relative;
+}
+#line2{
+  width:100%;
+  height:9px;
+  background-color: rgb(59, 54, 48);
+  margin-left:0px;
+  margin-right:0px;
+  position: relative;
+}
+#line3{
+  width:100%;
+  height:9px;
+  background-color: rgb(59, 54, 48);
+  margin-top:-78px;
+  position: relative;
+}
+.faq h2{
+  margin-top:86px;
+  text-align:center;
+  font-size:48px;
+  font-weight: 800;
+}
+.accordion{
+  width:100%;
+  max-width: 750px;
+  margin:60px auto;
+}
+.accordion li label{
+  display:flex;
+  align-items:center;
+  background: #303030;
+  margin-bottom:2px;
+  cursor: pointer;
+  padding:20px;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.accordion li{
+  width:100%;
+  padding:5px;
+  list-style:none;
+}
+label::after{
+  content:'+';
+  font-size:34px;
+  position:absolute;
+  right:20px;
+}
+input[type="radio"]{
+  display:none;
+}
+.accordion.content{
+  overflow:hidden;
+  text-align: left;
+  background: #303030;
+  max-height: 0;
+  padding:0 20px;
+}
+#ex{
+  align-items: center;
+  margin-left: 479px;
+}
+#class{
+  text-align:center;
+  font-size:25px;
+  margin-right:250px;
+}
+#line4{
+  width:100%;
+  height:9px;
+  background-color: rgb(59, 54, 48);
+  margin-top:3px;
+  position: relative;
+}
+#qus{
+  height:100px;
+  width:250px;
+  margin-top:30px;
+  margin-left:30px;
+}
+#div1{
+  height:100px;
+  width:150px;
+  text-decoration: none;
+  margin-left:20px;
+  color:white;
+   -webkit-text-fill-color: white;
+}
+#div2{
+  height:100px;
+  width:150px;
+  text-decoration: none;
+  margin-left:23px;
+  color:white;
+   -webkit-text-fill-color: white;
+}
+#div3{
+  height:100px;
+  width:150px;
+  text-decoration: none;
+  margin-left:73px;
+  color:white;
+   -webkit-text-fill-color: white;
+}
+#div4{
+  height:100px;
+  width:150px;
+  text-decoration: none;
+  margin-left:20px;
+  color:white;
+   -webkit-text-fill-color: white;
+}
+#div_main{
+  display:flex;
+  align-items: center;
+ justify-content: right;
+  margin-left:50px;
+  padding:2px 2px 2px 2px;
+}
+#last{
+  margin-top: -2px;
+  margin-left: 34px;
+}
